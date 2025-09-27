@@ -1,0 +1,32 @@
+[
+  {
+    "id": "e-commerce-vitals",
+    "title": "E-Commerce Vitals Dashboard",
+    "short_description": "A high-conversion shop built with Next.js and optimized for Core Web Vitals.",
+    "full_content": "This project focused on rewriting a sluggish e-commerce platform using Next.js Static Site Generation (SSG) for product pages and Incremental Static Regeneration (ISR) for dynamic content, resulting in a dramatic reduction in bounce rate.",
+    "tech_stack": ["Next.js", "Tailwind CSS", "Headless CMS (Mock)", "Server Components"],
+    "image_url": "/images/ecommerce-preview.jpg",
+    "analytical_data": {
+      "LCP": "1.1s",
+      "FID": "< 10ms",
+      "CLS": "0.0",
+      "mobile_score": 95,
+      "optimization_strategy": "ISR/SSG"
+    }
+  },
+  {
+    "id": "saas-landing-page",
+    "title": "High-Speed SaaS Landing Page",
+    "short_description": "Server-rendered landing page with full-stack capabilities via Server Actions.",
+    "full_content": "A case study in using Next.js Server Actions to handle form submissions without a dedicated API layer, demonstrating a simplified architecture and reduced client-side bundle size for maximum load speed.",
+    "tech_stack": ["Next.js", "Server Actions", "Postgres (Mock)", "Vercel"],
+    "image_url": "/images/saas-preview.jpg",
+    "analytical_data": {
+      "LCP": "0.8s",
+      "FID": "< 10ms",
+      "CLS": "0.0",
+      "mobile_score": 98,
+      "optimization_strategy": "Server Rendering"
+    }
+  }
+]
